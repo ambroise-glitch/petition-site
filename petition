@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Petition - Stop Phone Ban</title>
+
+<style>
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #111;
+    color: white;
+}
+
+.container {
+    margin: 50px auto;
+    width: 70%;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+.slogan {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.warning {
+    margin-top: 30px;
+    font-size: 18px;
+    color: yellow;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>STOP THE PHONE BAN</h1>
+
+<p class="slogan"><b>Teach us, don’t ban us.</b></p>
+
+<p>Phones help us stay connected, access education, and take breaks.</p>
+
+<p class="warning">⚠️ Ignoring technology is pushing the problem away.</p>
+
+<h2>Sign the Petition</h2>
+
+<input type="text" placeholder="Your name"><br>
+<input type="email" placeholder="Your email"><br>
+
+<button onclick="alert('Thank you for signing!')">
+Sign Petition
+</button>
+
+<p style="margin-top:30px;">Share this page with your friends!</p>
+
+</div>
+
+</body>
+</html>
